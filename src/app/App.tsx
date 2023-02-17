@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/App.css';
 import { Box, Container, Typography, Stack, Button } from '@mui/material';
+import {RippleBadge} from './MaterialTheme/styled';
 
 function App() {
   return (
@@ -11,7 +12,11 @@ function App() {
             hello world
           </Typography>
         </Box>
-        <Button variant="outlined">Outlined</Button>
+        <Box>
+          <RippleBadge badgeContent={4}>
+          <Button color="secondary" variant="contained">Contained</Button>
+          </RippleBadge>
+        </Box>
       </Stack>
     </Container>
   );
