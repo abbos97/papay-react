@@ -5,13 +5,28 @@
   background: url("/public/restaurant/header_rectangle.png");
   background-size: cover;
 }
+.format_restaurant.home_navbar {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  background: url("/public/restaurant/header_rectangle_main.png");
+  background-size: cover;
+}
+.format_others.home_navbar {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  background: url("/public/others/others_header.png");
+  background-size: cover;
+}
 
-.format.home_navbar .navbar_config {
+.home_navbar .navbar_config {
   width: 1244.69px;
   height: 46px;
   margin-left: 26px;
   margin-top: 55px;
 }
+
 
 .home_navbar .navbar_links {
   width: 752px;
