@@ -104,5 +104,6 @@
     margin-left: 494px;
     background: url('/public/home/blister5.png');
     border-radius: 90px 0 0 0;
-    filter: invert(46%);
+    filter: invert(46%) blur(1px);
+    background-size:cover;
 }
