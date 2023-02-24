@@ -359,3 +359,105 @@
     background: #007aff;
     border-radius: 50%;
 }
+
+.homepage .top_article_frame {
+    width: 100%;
+    
+    
+}
+
+.homepage .top_article_frame .events_text {
+    position: relative;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.homepage .top_article_frame .article_text {
+    text-align: center;
+    margin-top: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+}
+
+.homepage .top_article_frame .article_box {
+    width: 567.99px;
+    height: 150px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 20px 20px 0px;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.homepage .top_article_frame .article_box_img {
+    width: 150px;
+    height: 150px;
+}
+
+.homepage .top_article_frame .article_name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.homepage .article_cook {
+    width: 35px;
+    height: 35px;
+
+}
+
+.homepage .top_article_frame .article_desc {
+    width: 282px;
+    height: 59px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #E3C08D;
+    margin-top: 6px;
+}
+
+.homepage .celebrities_box {
+    position: relative;
+    margin-top: 30px;
+    width: 380px;
+    height: 350px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.homepage .celebrities_box2 {
+    margin-top: 60px;
+}
+
+.homepage .celebrities_box_img {
+    width: 300px;
+    height: 300px;
+}
+
+.homepage .celebrities_box_text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 11px;
+    color: #000000;
+}
