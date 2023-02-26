@@ -79,7 +79,7 @@ export function Events() {
               prevEl: ".swiper_button_prev",
             }}
             pagination={{
-              el: ".swiper-pagination", //shotda  xato bolishi mumkun
+              el: ".swiper-pagination", 
               clickable: true,
             }}
             autoplay={{
