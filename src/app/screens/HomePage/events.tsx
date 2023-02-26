@@ -6,10 +6,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, {Autoplay, Navigation, Pagination } from "swiper";
 SwiperCore.use([Autoplay, Navigation, Pagination])
 
-// import "swiper/css";
-// import "swiper/css/pagination";
-
-// import "swiper/css/navigation";
 
 
 
