@@ -8,6 +8,7 @@ import FavoriteBorder from "@mui/icons-material/FavoriteBorder";
 import Favorite from "@mui/icons-material/Favorite";
 import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
 import MonetizationOnIcon from "@mui/icons-material/MonetizationOn";
+import StarIcon from "@mui/icons-material/Star";
 
 const restaurant_list = Array.from(Array(10).keys());
 const product_list = Array.from(Array(8).keys());
@@ -185,11 +186,99 @@ export function OneRestaurant() {
         </Stack>
       </Container>
 
-      {/* <div className={"review_for_restaurant"}>
-        <Container></Container>
+      <div className={"review_for_restaurant"}>
+        <Container
+          sx={{ mt: "100px" }}
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+          }}
+        >
+          <Box className={"category_title"}>Oshxona haqida fikrlar</Box>
+          <Stack
+            flexDirection={"row"}
+            display={"flex"}
+            justifyContent={"space-between"}
+            width={"100%"}
+          >
+            {Array.from(Array(4).keys()).map((ele, index) => {
+              return (
+                <Box className={"review_box"} key={index}>
+                  <Box display={"flex"} justifyContent={"center"}>
+                    <img src="/auth/jony.png" className={"review_img"} alt="" />
+                  </Box>
+                  <span className={"review_name"}>Jony</span>
+                  <span className={"review_prof"}>Foydalanuvchi</span>
+                  <p className={"review_desc"}>
+                    Manga bu oshxonani taomlari yoqdi. Tafsiya qilaman!
+                  </p>
+                  <div className={"review_stars"}>
+                    <StarIcon style={{ color: "#F2BD57" }} />
+                    <StarIcon style={{ color: "#F2BD57" }} />
+                    <StarIcon style={{ color: "#F2BD57" }} />
+                    <StarIcon style={{ color: "whitesmoke" }} />
+                    <StarIcon style={{ color: "whitesmoke" }} />
+                  </div>
+                </Box>
+              );
+            })}
+          </Stack>
+        </Container>
       </div>
 
-      <Container className={"member_review"}></Container> */}
+      <Container className={"member_reviews"}>
+        <Box className={"category_title"}>Oshxona haqida</Box>
+
+        <Stack
+          display={"flex"}
+          flexDirection={"row"}
+          width={"90%"}
+          sx={{ mt: "70px" }}
+        >
+          <Box
+            className={"about_left"}
+            sx={{ backgroundImage: `url(/restaurant/lazzatin.jpeg)` }}
+          >
+            <div className={"about_left_desc"}>
+              <span>Lazzat</span>
+              <p>Eng mazzali Taomlar</p>
+            </div>
+          </Box>
+          <Box className={"about_right"}>
+            {Array.from(Array(3).keys()).map((ele) => {
+              return (
+                <Box display={"flex"} flexDirection={"row"}>
+                  <div className={"about_right_img"}></div>
+                  <div className={"about_right_desc"}>
+                    <span>Bizning mohir oshpazlarimiz</span>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                      sed diam nonummy nibh...
+                    </p>
+                  </div>
+                </Box>
+              );
+            })}
+          </Box>
+        </Stack>
+
+        <Stack
+          sx={{ mt: "60px" }}
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+          }}
+        >
+          <Box className={"category_title"}>Oshxona Manzili</Box>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5275.503513400537!2d127.04482569673564!3d37.58192234280249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cbb5b6efd623d%3A0xdc9c7beba497ba61!2z7LKt65-J66as7Jet!5e0!3m2!1sru!2skr!4v1677422757061!5m2!1sru!2skr"
+            width="1320"
+            height="500"
+          ></iframe>
+        </Stack>
+      </Container>
     </div>
   );
 }
