@@ -87,24 +87,36 @@ export function ChosenDish() {
                     {...label}
                     icon={<FavoriteBorder />}
                     checkedIcon={<Favorite style={{ color: "red" }} />}
-                     checked={true}
+                    checked={true}
                   />
                   <span>98 ta</span>
                 </div>
-                <div style={{display: "flex", alignItems: "center"}}>
-                <RemoveRedEyeIcon sx={{mr: "10px"}}/>
-                <span>1000 ta</span>
+                <div style={{ display: "flex", alignItems: "center" }}>
+                  <RemoveRedEyeIcon sx={{ mr: "10px" }} />
+                  <span>1000 ta</span>
                 </div>
               </div>
             </Box>
-            <p className={"dish_desc_info"}>Quyidagi taom bizning dunyo tanigan oshpazlarimiz tomonidan tayorlangan bolib judayam mazzali va judayam yumshoq qilib tayyorlangan, istemol qiling va rohatlaning!!!</p>
-            <Marginer direction="horizontal" height="1" width="100%" bg="#000"/>
+            <p className={"dish_desc_info"}>
+              Quyidagi taom bizning dunyo tanigan oshpazlarimiz tomonidan
+              tayorlangan bolib judayam mazzali va judayam yumshoq qilib
+              tayyorlangan, istemol qiling va rohatlaning!!!
+            </p>
+            <Marginer
+              direction="horizontal"
+              height="1"
+              width="100%"
+              bg="#000"
+            />
             <div className={"dish_price_box"}>
-                <span>Narx:</span>
-                <span>$11</span>
+              <span>Narx:</span>
+              <span>$11</span>
             </div>
+
             <div className={"button_box"}>
-                <Button variant="contained" style={{fontWeight: 600,}}>Savatga qo'shish</Button>
+              <Button variant="contained" style={{ fontWeight: 600 }}>
+                Savatga qo'shish
+              </Button>
             </div>
           </Box>
         </Stack>
