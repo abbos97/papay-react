@@ -1,0 +1,201 @@
+.order_page {
+  width: 100%;
+  height: auto;
+  background: #0b0e11;
+  display: flex;
+}
+
+.order_page .order_left {
+  width: 70%;
+  height: auto;
+}
+
+
+
+.order_page .order_right {
+  margin-top: 86px;
+  margin-left: 30px;
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.order_page .order_right .order_info_box {
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 16px rgba(242, 189, 87, 0.04);
+  border-radius: 16px;
+}
+
+.order_page .order_info_box .order_user_img {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.order_page .order_info_box .order_user_img .order_user_avatar {
+    width: 117px;
+    height: 112px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 37px;
+}
+
+.order_page .order_info_box .order_user_img .order_user_icon_box {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #0000007a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    right: -10px;
+    bottom: -5px;
+}
+
+.order_page .order_info_box .order_user_name {
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    margin-top: 10px;
+    color: #08090D;
+}
+
+.order_page .order_info_box .order_user_prof {
+    color: #A1A1A1;
+}
+
+.order_page .order_main_box {
+    position: relative;
+}
+
+.order_page .order_main_box .order_box_scroll {
+    width: 100%;
+    height: 280px;
+    margin-top: 20px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 16px rgba(242, 189, 87, 0.04);
+    border-radius: 16px;
+    overflow: auto;
+    padding-bottom: 40px;
+}
+
+.order_page .order_main_box .ordersName_price {
+    display: flex;
+    
+}
+
+.order_page .order_user_address {
+    display: flex;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.order_page .order_main_box .priceBox {
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #262626;
+    align-items: center;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.order_page .order_main_box .priceBox img {
+    width: 11px;
+    height: 11px;
+}
+
+.order_page .order_main_box .orderDishImg {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.order_page .order_main_box .titleDish {
+    margin-left: 20px;
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 36px;
+    color: #000000;
+    margin-right: 70px;
+}
+
+.order_page .order_main_box .total_price_box {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 0px;
+    border-radius:0 0 16px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order_page .order_main_box .total_price_box.red_solid {
+    background: rgba(217, 217, 217, 0.985);
+    
+}
+.order_page .order_main_box .total_price_box.red_finish {
+    background: rgb(49, 203, 49);
+    color: #fff;
+    
+}
+.order_page .order_main_box .total_price_box.red_process {
+    background: #28213c;
+    color: #fff;
+    
+}
+.order_page .order_main_box .total_price_box .boxTotal {
+    display: flex;
+    width: 100%;
+    margin-left: 40px;
+    justify-content: space-evenly;
+}
+
+.order_page .order_main_box .total_price_box .boxTotal_finish {
+    display: flex;
+    width: 700px;
+    justify-content: space-evenly;
+    margin-left: 40px;
+}
+
+.order_page .order_main_box .total_price_box .boxTotal_btn {
+    width: 136px;
+    height: 38px;
+    bottom: -8px;
+    
+}
+
+.order_page .order_right .order_cards_icon {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.order_page .order_right .order_cards_icon img{
+    width: 38px;
+    height: 25px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+

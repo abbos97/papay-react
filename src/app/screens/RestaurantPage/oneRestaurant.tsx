@@ -271,7 +271,9 @@ export function OneRestaurant() {
             alignItems: "center",
           }}
         >
-          <Box className={"category_title"}>Oshxona Manzili</Box>
+          <Box className={"category_title"} sx={{ mb: "30px" }}>
+            Oshxona Manzili
+          </Box>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5275.503513400537!2d127.04482569673564!3d37.58192234280249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cbb5b6efd623d%3A0xdc9c7beba497ba61!2z7LKt65-J66as7Jet!5e0!3m2!1sru!2skr!4v1677422757061!5m2!1sru!2skr"
             width="1320"
