@@ -19,7 +19,7 @@ export function CommunityPage(props: any) {
   const [value, setValue] = React.useState("1");
 
   //==== HANDLERS
-  const handleChange = (event: React.SyntheticEvent, newValue: string) => {
+  const handleChange = (event: any, newValue: string) => {
     setValue(newValue);
   };
   const handlePaginationChange = (event: any, value: number) => {
@@ -63,7 +63,7 @@ export function CommunityPage(props: any) {
                     <TargetArticles targetBoArticles={[1, 2, 3]} />
                   </TabPanel>
                   <TabPanel value={"2"}>
-                    <TargetArticles targetBoArticles={[1, 2, 3, 4,5,6,7,8 ]} />
+                    <TargetArticles targetBoArticles={[1, 2, 3, 4,5,]} />
                   </TabPanel>
                   <TabPanel value={"3"}>
                     <TargetArticles targetBoArticles={[1, 2]} />

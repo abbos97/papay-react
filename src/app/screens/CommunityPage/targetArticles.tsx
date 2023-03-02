@@ -4,7 +4,7 @@ import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
 import FavoriteBorder from "@mui/icons-material/FavoriteBorder";
 import Favorite from "@mui/icons-material/Favorite";
 import Checkbox from "@mui/material/Checkbox";
-// import moment from "moment";
+ import moment from "moment";
 
 export function TargetArticles(props: any) {
   return (
@@ -39,9 +39,9 @@ export function TargetArticles(props: any) {
                 <span className={"all_article_title"}>Evaluation</span>
                 <p className={"all_article_desc"}>Lazzat eng zor restaurant</p>
                 <Stack flexDirection={"row"} className={"all_article_date_box"}>
-                  <Box className={"all_article_date date"}>22-05-15 02:08</Box>
+                  <Box className={"all_article_date date"}>{moment().format("YY-MM-DD HH:mm")}</Box>
                   <Box className={"all_article_date favorite"}>
-                    <FavoriteBorder />1
+                  <Checkbox sx={{ml: "0px"}} icon={<FavoriteBorder/>} checkedIcon={<Favorite style={{color: "red"}}/>} checked={true}/>1
                   </Box>
                   <Box className={"all_article_date favorite"}>
                     <RemoveRedEyeIcon />2

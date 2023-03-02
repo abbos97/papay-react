@@ -234,10 +234,7 @@
     align-items: center;
 }
 
-.community_page .community_frame .artticle_main {
-    height: 980px;
-    overflow: auto;
-}
+
 
 .community_page .community_frame .article_bott {
     width: 100%;
