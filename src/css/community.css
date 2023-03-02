@@ -164,7 +164,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 15px;
     width: 814.29px;
     height: 170px;
     background: #182226;
@@ -234,7 +234,9 @@
     align-items: center;
 }
 
-
+.community_page .community_frame .artticle_main {
+    height: 980px;
+}
 
 .community_page .community_frame .article_bott {
     width: 100%;
