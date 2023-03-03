@@ -15,7 +15,7 @@ export function MemberFollowers(props: any) {
         const image_url = "/auth/jony.png";
         return (
           <Box className={"follow_box"}>
-            <Avatar alt={""} src={image_url} sx={{ width: 89, height: 89 }} />
+            <Avatar alt={""} src={image_url} sx={{ width: 89, marginLeft: "45px", height: 89 }} />
             <div
               style={{
                 width: "400px",
@@ -43,7 +43,7 @@ export function MemberFollowers(props: any) {
                   startIcon={
                     <img
                       src={"icons/follow_icon.svg"}
-                      style={{ width: "40px" }}
+                      style={{ width: "25px" }}
                     />
                   }
                   className={"follow_btn"}

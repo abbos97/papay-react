@@ -12,16 +12,17 @@ export function MemberPosts(props: any) {
       {["1", "2", "3"].map((article) => {
         return (
           <Stack className={"all_aricle_box"} sx={{ curser: "pointer" }}>
+            <Box className={"all_article_container"}>
             <Box
               className={"all_aricle_img"}
               sx={{ backgroundImage: `url("/auth/jony.png")` }}
             ></Box>
-            <Box className={"all_article_container"}>
+            <Box sx={{mt: "15px"}}>
               <Box alignItems={"center"} display={"flex"}>
                 <img
                   src="/auth/jony.png"
                   width={"35px"}
-                  style={{ borderRadius: "50%", backgroundSize: "cover" }}
+                  style={{ borderRadius: "50%", marginRight: "10px", backgroundSize: "cover" }}
                 />
                 <span className={"all_article_author_user"}>Temur</span>
               </Box>
@@ -33,6 +34,7 @@ export function MemberPosts(props: any) {
                 <span className={"all_article_title"}>Restauranlarga baho</span>
                 <p className={"all_article_desc"}>Lazzat ajoyib restaurant</p>
               </Box>
+            </Box>
               <Box>
                 <Box
                   className={"article_share"}

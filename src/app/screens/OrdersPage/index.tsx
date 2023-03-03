@@ -12,6 +12,7 @@ import FinishedOrders from "../../components/orders/finishedOrders";
 export function OrdersPage() {
   // ===== INITIALIZATIONS
   const [value, setValue] = useState("1");
+  
 
   //==== HANDLERS
   const handleChange = (event: any, newValue: string) => {

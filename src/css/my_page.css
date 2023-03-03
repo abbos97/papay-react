@@ -1,0 +1,335 @@
+.my_page .my_page_frame {
+  width: 100%;
+  height: auto;
+  background: #0b0e11;
+}
+
+.my_page .my_page_left {
+  width: 70%;
+  height: auto;
+  color: #fff;
+}
+
+.my_page .my_page_right {
+  margin-left: 30px;
+  width: 30%;
+  height: auto;
+}
+
+.my_page .my_page_frame .menu_name {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 68px;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 20px;
+}
+
+.my_page .my_page_frame .all_aricle_box {
+  width: 821px;
+  height: 170px;
+  background: #182226;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.my_page .my_page_frame .all_aricle_box .all_article_container {
+  display: flex;
+}
+
+.my_page .post_content .all_aricle_img {
+  width: 157px;
+  height: 155px;
+  background-size: cover;
+  border-radius: 30px 0px 0px 30px;
+  margin-top: 8px;
+  margin-right: 15px;
+}
+
+.my_page .my_page_right .order_info_box {
+  width: 372.58px;
+  height: 408px;
+  background: #ffffff;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 16px rgba(242, 189, 87, 0.04);
+  border-radius: 16px;
+  position: relative;
+  margin-top: 50px;
+}
+
+.my_page .my_page_right .order_info_box .settings_btn {
+  position: absolute;
+  top: 28px;
+  right: 55px;
+  cursor: pointer;
+}
+
+.my_page .my_page_right .order_info_box .order_user_img {
+  position: relative;
+}
+
+.my_page .my_page_right .order_info_box .order_user_avatar {
+  width: 117px;
+  height: 112px;
+  margin-top: 28px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 37px;
+}
+
+.my_page .my_page_right .order_info_box .order_user_icon_box {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.33);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  right: -5px;
+}
+
+.my_page .my_page_right .order_info_box .order_user_name {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+  color: #08090d;
+  margin-top: 5px;
+}
+
+.my_page .my_page_right .order_info_box .order_user_prof {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  color: #a1a1a1;
+}
+
+.my_page .my_page_right .order_info_box .user_media_box_icons {
+  width: 117px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  color: #aaaaaa;
+}
+
+.my_page .my_page_right .order_info_box .user_media_box {
+  width: 220px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #616164;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.my_page .my_page_right .order_info_box .user_desc {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.my_page .my_page_right .my_page_menu {
+  margin-top: 40px;
+}
+
+.my_page .my_page_right .my_page_menu .menu_box {
+  width: 372.58px;
+  height: 50px;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 16px rgba(242, 189, 87, 0.04);
+  border-radius: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 38px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.my_page .my_page_right .my_page_menu .menu_box span {
+  margin-left: 20px;
+}
+
+.my_page .post_content .all_article_author_user {
+}
+
+.my_page .post_content .article_share_main {
+  position: absolute;
+  bottom: 0;
+  right: 25px;
+}
+
+.my_page .post_content .all_article_title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #e3c08d;
+}
+
+.my_page .post_content .all_article_desc {
+  font-size: 15px;
+}
+
+.my_page .follow_box {
+  width: 821.42px;
+  height: 140px;
+  background: linear-gradient(
+    180deg,
+    rgba(38, 112, 129, 0.9) 0%,
+    rgba(21, 61, 70, 0.9) 100%
+  );
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15),
+    inset 3px 2px 9px rgba(255, 255, 255, 0.25);
+  border-radius: 17px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.my_page .follow_box .username_text {
+  margin-top: 40px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.my_page .follow_box .name_text {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  margin-top: 5px;
+}
+
+.my_page .follow_box .following_already {
+  width: 160px;
+  height: 50px;
+  background: #68c5cb;
+  box-shadow: 1px 4px 6px rgba(211, 211, 211, 0.25),
+    inset 0px 4px 4px rgba(255, 255, 255, 0.25);
+  border-radius: 26px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.my_page .follow_box .follow_btn {
+  width: 160px;
+  height: 50px;
+  background: #30945e;
+  box-shadow: 1px 4px 6px rgba(211, 211, 211, 0.25),
+    inset 0px 4px 4px rgba(255, 255, 255, 0.25);
+  border-radius: 26px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.my_page .follow_box .follow_cancel_btn {
+  width: 185px;
+  height: 57px;
+  background: #e81010;
+  border: 1px solid #ffffff;
+  box-shadow: 1px 4px 6px rgba(211, 211, 211, 0.25),
+    inset 0px 4px 4px rgba(255, 255, 255, 0.25);
+  border-radius: 26px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+}
+
+.my_page .my_settings_page .member_media_frame {
+  width: 821.42px;
+  height: 120px;
+  background: #f7f7f7;
+  border-radius: 5px;
+  display: flex;
+  padding: 10px;
+  color: #140342;
+}
+
+.my_page .my_settings_page .mb_image {
+  margin-right: 20px;
+}
+
+.my_page .my_settings_page .media_change_box p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #4f547b;
+  margin-top: 5px;
+}
+
+.my_page .my_settings_page .media_change_box .up_del_box  {
+    width: 37px;
+    height: 37px;
+    background: #D9D9D9;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my_page .my_settings_page .input_frame {
+    display: flex;
+}
+
+.my_page .my_settings_page .input_frame .long_input {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.my_page .my_settings_page .input_frame .long_input .spec_label {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.my_page .my_settings_page .input_frame .spec_input {
+    width: 821.42px;
+    height: 54px;
+    background: #F6F6F6;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #4F547B;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+
+
+.my_page .my_settings_page .input_frame .short_input .spec_input{
+    width: 402.48px;
+    height: 54px;
+    margin-top: 10px;
+}
+
+.my_page .my_settings_page .input_frame .long_input .spec_textarea{
+    width: 821.42px;
+    height: 200px;
+    background: #F6F6F6;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #4F547B;
+}
