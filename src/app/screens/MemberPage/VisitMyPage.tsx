@@ -12,11 +12,13 @@ import { MemberPosts } from "./memberPosts";
 import { MemberFollowers } from "./memberFollowers";
 import { MemberFollowing } from "./memberFollowing";
 import { MySettings } from "./mySettings";
+import { TuiEditor } from "../../components/tuiEditor/TuiEditor";
 //  OTHERS
 import Pagination from "@mui/material/Pagination";
 import PaginationItem from "@mui/material/PaginationItem";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import TViewer from "../../components/tuiEditor/TViewer";
 
 export function VisitMyPage(props: any) {
   // ===== INITIALIZATIONS
@@ -79,12 +81,14 @@ export function VisitMyPage(props: any) {
 
                   <TabPanel value={"4"}>
                     <Box className={"menu_name"}>Maqola yozish</Box>
-                    <Box className={"write_content"}></Box>
+                    <Box className={"write_content"}><TuiEditor/></Box>
                   </TabPanel>
 
                   <TabPanel value={"5"}>
                     <Box className={"menu_name"}>Tanlangan maqola</Box>
-                    <Box className={"menu_content"}></Box>
+                    <Box className={"menu_content"}>
+                      <TViewer text={`<h3>Hello</h3>`}/>
+                    </Box>
                   </TabPanel>
 
                   <TabPanel value={"6"}>
@@ -106,7 +110,7 @@ export function VisitMyPage(props: any) {
                   >
                     <div className={"order_user_img"}>
                       <img
-                        src="/auth/munis.png"
+                        src="/auth/jony.png"
                         className={"order_user_avatar"}
                         alt=""
                       />

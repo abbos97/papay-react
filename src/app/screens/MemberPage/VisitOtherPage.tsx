@@ -10,8 +10,7 @@ import TabPanel from "@mui/lab/TabPanel";
 import { MemberPosts } from "./memberPosts";
 import { MemberFollowers } from "./memberFollowers";
 import { MemberFollowing } from "./memberFollowing";
-
-
+import TViewer from "../../components/tuiEditor/TViewer";
 
 export function VisitOtherPage(props: any) {
   // ===== INITIALIZATIONS
@@ -45,22 +44,25 @@ export function VisitOtherPage(props: any) {
                   <TabPanel value={"3"}>
                     <Box className={"menu_name"}>Following</Box>
                     <Box className={"menu_content"}>
-                      <MemberFollowing actions_enabled={false}/>
+                      <MemberFollowing actions_enabled={false} />
                     </Box>
                   </TabPanel>
 
                   <TabPanel value={"4"}>
                     <Box className={"menu_name"}>Tanlangan maqola</Box>
-                    <Box className={"menu_content"}></Box>
+                    <Box className={"menu_content"}>
+                      <TViewer text={`<h3>Hello</h3>`} />
+                    </Box>
                   </TabPanel>
                 </Box>
               </Stack>
 
               <Stack className={"my_page_right"}>
                 <Box className={"order_info_box"}>
-                  <a onClick={() => setValue("6")} className={"settings_btn"}>
-                   
-                  </a>
+                  <a
+                    onClick={() => setValue("6")}
+                    className={"settings_btn"}
+                  ></a>
                   <Box
                     display={"flex"}
                     flexDirection={"column"}
@@ -68,7 +70,7 @@ export function VisitOtherPage(props: any) {
                   >
                     <div className={"order_user_img"}>
                       <img
-                        src="/auth/munis.png"
+                        src="/auth/jony.png"
                         className={"order_user_avatar"}
                         alt=""
                       />
@@ -80,10 +82,10 @@ export function VisitOtherPage(props: any) {
                     <span className={"order_user_prof"}>USER</span>
                   </Box>
                   <Box className={"user_media_box_icons"}>
-                    <FacebookIcon style={{fontSize: "22px"}}/>
-                    <InstagramIcon style={{fontSize: "22px"}}/>
-                    <TelegramIcon style={{fontSize: "22px"}}/>
-                    <YouTubeIcon style={{fontSize: "22px"}}/>
+                    <FacebookIcon style={{ fontSize: "22px" }} />
+                    <InstagramIcon style={{ fontSize: "22px" }} />
+                    <TelegramIcon style={{ fontSize: "22px" }} />
+                    <YouTubeIcon style={{ fontSize: "22px" }} />
                   </Box>
                   <Box className={"user_media_box"}>
                     <p className={"follows"}>Followers: 3</p>
@@ -101,34 +103,33 @@ export function VisitOtherPage(props: any) {
                       onChange={handleChange}
                       aria-label="lab API tabs example"
                     >
-                        {true ? (
-                            <Tab
-                              style={{ flexDirection: "column" }}
-                              value={"4"}
-                              component={(e) => (
-                                <Button
-                                  variant={"contained"}
-                                  style={{backgroundColor: "#f70909b8"}}
-                                >
-                                  Bekor qilish
-                                </Button>
-                              )}
-                            />
-
-                        ) : (
-                            <Tab
-                              style={{ flexDirection: "column" }}
-                              value={"4"}
-                              component={(e) => (
-                                <Button
-                                  variant={"contained"}
-                                  style={{backgroundColor: "#30945e"}}
-                                >
-                                  Follow qilish
-                                </Button>
-                              )}
-                            />
-                        )}
+                      {true ? (
+                        <Tab
+                          style={{ flexDirection: "column" }}
+                          value={"4"}
+                          component={(e) => (
+                            <Button
+                              variant={"contained"}
+                              style={{ backgroundColor: "#f70909b8" }}
+                            >
+                              Bekor qilish
+                            </Button>
+                          )}
+                        />
+                      ) : (
+                        <Tab
+                          style={{ flexDirection: "column" }}
+                          value={"4"}
+                          component={(e) => (
+                            <Button
+                              variant={"contained"}
+                              style={{ backgroundColor: "#30945e" }}
+                            >
+                              Follow qilish
+                            </Button>
+                          )}
+                        />
+                      )}
                     </TabList>
                   </Box>
                 </Box>
