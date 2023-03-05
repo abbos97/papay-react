@@ -1,0 +1,98 @@
+.help_page {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background: #0b0e11;
+}
+
+.help_page .help_main_content {
+    border-top: 2px solid #908f8f;
+    margin-top: 10px;
+}
+
+.help_page .help_main_content .theRulse_box{
+    width: 1224px;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    margin-top: 5px;
+    padding: 25px;
+
+}
+
+.help_page .help_main_content .theRulseFrame p{
+    margin-top: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #535252a9;
+}
+
+.help_page .help_main_content .admin_letter_box {
+    position: relative;
+    width: 1224px;
+    height: 771.5px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    box-shadow: 0px 20px 30px rgba(25, 25, 46, 0.04);
+    border-radius: 8px;
+}
+
+.help_page .help_main_content .admin_letter_container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.help_page .help_main_content .admin_letter_box .admin_letter_frame  {
+    margin-top: 90px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.help_page .help_main_content .admin_letter_box .admin_letter_frame p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #4F547B;
+}
+
+.help_page .help_main_content .admin_letter_box .admin_letter_frame {
+    margin-top: 60px;
+} 
+.help_page .help_main_content .admin_letter_frame .admin_input_box {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.help_page .help_main_content .admin_letter_frame .admin_input_box label {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.help_page .help_main_content .admin_letter_frame .admin_input_box input,
+.help_page .help_main_content .admin_letter_frame .admin_input_box textarea {
+    width: 1100px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #140342;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.help_page .help_main_content .admin_letter_frame .admin_input_box textarea {
+    width: 1100px;
+    height: 150px;
+    padding-top: 20px;
+    position: relative;
+}
+
+/* .help_page .help_menu_box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+} */
